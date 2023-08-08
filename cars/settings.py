@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'core',
     'rest_framework',
     'rest_framework_simplejwt',
+    'drf_spectacular',
 ]
 
 MIDDLEWARE = [
@@ -109,6 +110,15 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
         
     ),
+
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+    
+}
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'API-Cadastro',
+    'DESCRIPTION': 'Cadastro de veiculos',
+    'VERSION': '1.0.0',
     
 }
 

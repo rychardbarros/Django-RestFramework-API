@@ -5,6 +5,5 @@ from core import models
 
 class CarsViewSets(viewsets.ModelViewSet):
     permission_classes = (IsAuthenticated, )
-
     serializer_class = CarsSerializer
     queryset = models.Cars.objects.all()
