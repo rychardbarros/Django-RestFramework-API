@@ -10,6 +10,39 @@ The Vehicle Management API follows the principles of REST architecture, allowing
 
 A notable feature of this API is the integration of Swagger, an interactive documentation tool, which allows developers to explore and test endpoints in an intuitive way. In addition, the use of ReDoc offers a simplified and visually appealing documentation experience.
 
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/rychardbarros/Django-RestFramework-API.git
+cd Django-RestFramework-API
+```
+2. Create and activate a virtual environment (optional but recommended):
+```bash
+pip install virtualenv
+python -m venv venv
+
+# On Windows
+venv\Scripts\activate
+
+# On Linux/Mac
+source venv/bin/activate
+```
+3. Install the dependencies:
+```bash
+install -r requirements.txt
+```
+## To run the Django-RestFramework-API, follow the steps below:
+Open a terminal or command prompt.
+Navigate to the directory:
+```bash
+cd path/to/the/Django-RestFramework-API
+```
+Start the crud:
+```bash
+python manage.py runserver
+```
+
 ## Authentication
 
 To access the API resources, it is necessary to authenticate. Authentication is done through the use of JWT tokens (JSON Web Tokens), which are obtained through the authentication endpoints.
@@ -139,3 +172,15 @@ Success Response:
   {
     "message": "Vehicle deleted successfully"
   }
+```
+## Layout
+
+Swagger interface:
+
+<img src="./public/img/api.png" />
+
+Postman for Token:
+
+<img src="./public/img/token.png" />
+
+<img src="./public/img/edit.png" />
