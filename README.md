@@ -1,6 +1,14 @@
 # Django-RestFramework-API
 🚘 API in django-rest-framework made for a vehicle registration system with authentication.
 
+![Python](https://img.shields.io/badge/-Python-181717?&logo=Python&logoColor=FFFFF)
+![Django](https://img.shields.io/badge/-Django-181717?&logo=Django&logoColor=006400)
+![SQLite](https://img.shields.io/badge/-SQLite-181717?&logo=SQlite&logoColor=007FFF)
+![Swagger](https://img.shields.io/badge/-Swagger-181717?&logo=Swagger&logoColor=65CB57)
+![DjangoRest](https://img.shields.io/badge/-DjangoRestFramework-181717?&logo=DjangoRestFrameworkColor=65CB57)
+![JWT](https://img.shields.io/badge/-JWT-181717?&logo=JWTColor=65CB57)
+![Postman](https://img.shields.io/badge/-Postman-181717?&logo=Postman&logoColor=FFFFF)
+
 ## Introduction
 
 Welcome to the official documentation of the Vehicle Management REST API! This API was developed using the Django-Rest-Framework and aims to provide endpoints for creating, reading, updating and deleting vehicle records. Through this documentation, you will learn how to interact with the API, how to make the most of its functionalities and how to explore its features in an interactive way.
@@ -183,4 +191,19 @@ Postman for Token:
 
 <img src="./public/img/token.png" />
 
-<img src="./public/img/edit.png" />
+Endponit test with swagger:
+
+<img src="./public/img/swagger.png" />
+
+## Interactive Documentation
+
+You can also explore the API interactively using Swagger and ReDoc. Simply access the following links:
+
+Swagger: <a href="https://swagger.io/">Swagger Documentation</a>
+
+Through these interfaces, you can experiment with the API endpoints, send requests and visualize the responses in an intuitive way.
+
+# License 📚
+[MIT license](LICENSE).
+
+Made by [Rychard Barros](https://github.com/rychardbarros)
